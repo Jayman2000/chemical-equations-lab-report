@@ -1,19 +1,21 @@
-\documentclass{article}
-\title{Lab Report}
+\documentclass[twoside]{article}
+\title{Writing and Identifying Balanced Chemical Equations for Real Life Reactions}
 \author{Timmy Rettelle and Jason Yundt}
 \date{05/3/17}
 
 \usepackage{enumitem}
+\usepackage[version=4]{mhchem}
+\usepackage[letterpaper]{geometry}
 
 \begin{document}
    \maketitle
-   \textit{Purpose}: To examine chemical reactions and to determine the relevant chemical equations.
+   \textbf{Purpose}: To examine chemical reactions and to determine the relevant chemical equations.
    \begin{enumerate}[label=\Roman*.]
     
     \item % I
     \begin{enumerate}[label=\arabic*.]
      \item Methane gas and oxygen combust forming water vapor and carbon dioxide gas.
-     \item CH4(g) + 2O2(g) -[sparker]-> 2H2O(g) + CO2(g)
+     \item \ce{CH4(g) + 2O2(g) ->[sparker] 2H2O(g) + CO2(g)}
      \item Combustion
      \item N/A
     \end{enumerate}
@@ -21,7 +23,7 @@
     \item % II
     \begin{enumerate}[label=\arabic*.]
      \item Magnesium strips and oxygen gas are heated up and synthisize into a magnesium oxide powder.
-     \item 2Mg(s) + O2(g) -[heat]-> 2MgO(g)
+     \item \ce{2Mg(s) + O2(g) ->[heat] 2MgO(g)}
      \item Synthisis
      \item N/A
     \end{enumerate}
@@ -29,25 +31,53 @@
     \item % III
     \begin{enumerate}[label=\arabic*.]
      \item A copper tube is put into a test tube filled with aqueous silver nitrate and after single replacement forms aqueous copper (II) nitrate and a silver percipitate.
-     \item Cu(s) + 2AgNO3(aq) --> Cu(NO3)2(aq) + 2Ag(s)
+     \item \ce{Cu(s) + 2AgNO3(aq) -> Cu(NO3)2(aq) + 2Ag(s)}
      \item Single replacement
-     \item 
-      \begin{enumerate}[label=]
-       \item Total Ionic Equation: Cu(s) + 2Ag+(aq) + 2NO3,-(aq) --> Cu2+(aq) + 2NO3,-(aq) + 2Ag(s)
-       \item Net Ionic Equation: Cu(s) + 2Ag+(aq) --> Cu2+(aq) + 2Ag(s)
-      \end{enumerate}
+     \item Total Ionic Equation: \\ \ce{Cu(s) + 2Ag^+(aq) + 2NO3^-(aq) -> Cu2^+(aq) + 2NO3^-(aq) + 2Ag(s)} \\
+	   \\
+	   Net Ionic Equation: \\ \ce{Cu(s) + 2Ag^+(aq) -> Cu^2+(aq) + 2Ag(s)}
     \end{enumerate}
     
-    \item 
-    % Template
+    \item % IV
     \begin{enumerate}[label=\arabic*.]
-     \item Word equations
-     \item Balenced chemical equation including physical states
-     \item Type of reaction
-     \item For single or double replacement reactions, give total and net ionic equations.
+     \item Liquid hydrogen peroxide with solid manganese dioxide as a catylist decomposes into liquid water and oxygen gas.
+     \item \ce{2H2O2(l) ->[MnO2(s)] 2H2O(l) + O2(g)}
+     \item Decomposition
+     \item N/A
+    \end{enumerate}
+    
+    \item % V
+    \begin{enumerate}[label=\arabic*.]
+     \item Solid zinc and aqueous hydrochloric acid under go single replacement, forming aquous zinc chloride and hydrogen gas.
+     \item \ce{Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g)}
+     \item Single replacement
+     \item Total Ionic Equation: \\ \ce{Zn(s) + 2H^+(aq) + 2Cl^-(aq) -> Zn^2+(aq) + 2Cl^-(aq) + H2(g)} \\
+	   \\
+	   Net Ionic Equation: \\ \ce{Zn(s) + 2H^+(aq) -> Zn^2+(aq) + H2(g)}
+    \end{enumerate}
+    
+    \item % VI
+    \begin{enumerate}[label=\arabic*.]
+     \item A copper (II) sulfate solution and a sodium hydroxide solution undergo double replacement, forming solid copper (II) hydroxide and aqueous sodium sulfate.
+     \item \ce{CuSO4(aq) + 2NaOH(aq) -> Cu(OH)2(s) + Na2SO4(aq)}
+     \item Double replacement
+     \item Total Ionic Equation: \\ \ce{Cu^2+(aq) + SO4^2-(aq) + 2Na^+(aq) + 2OH^-(aq) -> Cu(OH)2(s) + 2Na^+(aq) + SO4^2-(aq)} \\
+	   \\
+	   Net Ionic Equation: \\ \ce{Cu^2+(aq) + 2OH^-(aq) -> Cu(OH)2(s)}
     \end{enumerate}
    
    \end{enumerate}
+   
+   \noindent \textbf{Conclusion}:
+   
+   A synthesis reaction is a reaction in which multiple less complex compounds react to form fewer, more complex compounds. A real life example of
+	this is photosynthesis, when a plant takes in water and carbon dioxide to create food (glucose). The formula is \ce{6CO2 + 6H20 -> C6H12O + 6O2}.
+	A decomposition reaction is the opposite of a synthesis. It is when more complex compounds break down to form many less complex compounds. An example
+	of this is cellular respiration, which is how our bodies use glucose for energy. The formula is \ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}. 
+	A single replacement reaction is when an ion that is alone switches with an ion that is in a compound. A real life example of this is the rusting of steel.
+	The formula is \ce{Fe2 + 2H2O -> Fe(OH)2 + H2}. A double replacement reaction is when ions in 2 compounds switch places to form 2 different compounds.
+	A real life example of this is antacids neutralizing stomach acids. The formula is \ce{Ca(OH) 2 + 2HCl -> CaCl2 + 2H2O}. A combustion reaction is when a hydrocarbons
+	reacts with O2 and forms CO2 and water. A real life example is burning gasoline. The formula is \ce{2C8H18 + 25O2 -> 16CO2 + 18H2O}.
 
 
 \end{document}
